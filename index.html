@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic Tac Toe</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1 class="title">Tic Tac Toe</h1>
+    <div class="mainContainer">
+        <div class="sideBar">
+            <div class="scoreBox">
+                <div class="playerScore scoreCards">
+                    <p class="scoreCardNumber">0</p>
+                </div>
+                <div class="opponentScore scoreCards">
+                    <p class="scoreCardNumber">0</p>
+                </div>
+            </div>
+            <div class="radioClass">
+                <p class="sidebarFont">Choose Opponent:</p>
+                <div>
+                    <label class="labelFont" for="opponent">Computer</label>
+                    <input type="radio" id="Computer" name="opponent"checked>
+                </div>
+                <div>
+                    <label class="labelFont"  for="opponent">Human</label>
+                    <input type="radio" id="human" name="opponent">
+                </div>
+            </div>
+            <div class="radioClass">
+                <p class="sidebarFont">Choose Piece:</p>
+                <div class="xPieceDiv">
+                    <label class="labelFont" for="piece">X</label>
+                    <input type="radio" id="xPieceInput" name="piece" checked>
+                </div>
+                <div class="oPieceDiv">
+                    <label class="labelFont" for="piece">O</label>
+                    <input type="radio" id="oPieceInput" name="piece">
+                </div>
+            </div> 
+            <div class="startGameContainer">
+                <button type="button" class="startGameButton">Start Game</button>
+            </div>
+        </div>
+        <div class="gameBoard"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
