@@ -25,6 +25,24 @@ body {
     align-items: center;
      border-radius: 4px;
 }
+
+.game-cover{
+    height: 800px;
+    width: 800px;
+    background-color: rgba(27, 28, 29, 0.932);
+    backdrop-filter: blur(4px);
+    z-index: 10;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.gameCoverText {
+    font-size: 100px;
+    color: rgb(0, 255, 242);
+}
+
 .dynamic-squares {
     height: 250px;
     width: 250px;
@@ -74,7 +92,7 @@ body {
 }
 .scoreCardNumber {
     font-size: 100px;
-    color: rgb(6, 234, 241);
+    color: rgb(0, 255, 242);
 
 }
 .sidebarFont {
