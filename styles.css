@@ -120,3 +120,29 @@ body {
     background-color: rgb(87, 158, 20);
     color: white;
 }
+#statusInfo {
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 23px;
+    margin: 5px 0;
+    z-index: 1000;
+}
+#statusDiv {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 60px; 
+    width: 450px;
+    background-color: rgb(37, 103, 112);
+    position: absolute;
+    top: 6%;
+    left: 56%;
+    border-radius: 20px;
+    z-index: 1;
+
+}
+body {
+    margin-top: 50px; /* Adjust based on the height of your status bar */
+}
